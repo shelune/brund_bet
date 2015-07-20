@@ -292,8 +292,118 @@ body {
     line-height: 31px;
 }
 
+.registeration {
+    height: 965px;
+    display: table;
+    color: #373B43;
+    clear: both;
+    width: 100%;
+}
+
+.credits {
+    width: 21.05%;
+    float: left;
+    background: #E3631F;
+    padding: 40px 25px 40px 40px;
+}
+
+.credits h3 {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'stratum-regular', sans-serif;
+    font-weight: 100;
+}
+
+.credits h3:nth-of-type(2) {
+    padding-top: 58px;
+}
+
+.paradox-brand {
+    width: 215px;
+}
+
+.credits p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+
+.credits ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.credits li {
+    display: inline-block;
+    padding-right: 28.5px;
+}
+
+.social-contacts img {
+    width: 49px;
+}
+
+.copyright-contact {
+    margin-top: 80px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.copyright-contact a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.copyright-contact p {
+    margin-bottom: 2px;
+}
+
+.share {
+    border-top: 6px solid #373B43;
+    width: 28%;
+    float: left;
+    padding: 72px 25px 40px 40px;
+    font-family: 'stratum-bold', sans-serif;
+    margin-left: 2px;
+}
 
 
+.investment {
+    background: url(../img/icon-investment.png) no-repeat;
+}
+
+.investment p {
+    line-height: 22px;
+    padding-left: 44px;
+    font-size: 18px;
+    padding-top: 1px;
+}
+
+.time p {
+    margin-top: 30px;
+    padding-left: 44px;
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.price {
+    font-family: 'stratum-regular', sans-serif;
+    margin-top: -19px;
+}
+
+p.description {
+    font-family: 'ff-meta-web-pro-italic', serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: -16px;
+}
+
+.time {
+    background: url(../img/icon-time.png) no-repeat;
+}
 
 /* ==========================================================================
    Helper classes
