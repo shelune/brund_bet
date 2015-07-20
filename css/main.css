@@ -252,7 +252,7 @@ body {
 .whatlearn-expl {
     width: 520px;
     padding: 20px 40px;
-    margin-top: 168px;
+    margin-top: 56px;
     margin-left: 67px;
     float: left;
     background: #fff;
@@ -363,7 +363,7 @@ body {
 
 .share {
     border-top: 6px solid #373B43;
-    width: 28%;
+    width: 26.5%;
     float: left;
     padding: 72px 25px 40px 40px;
     font-family: 'stratum-bold', sans-serif;
@@ -404,6 +404,27 @@ p.description {
 .time {
     background: url(../img/icon-time.png) no-repeat;
 }
+
+.share-buttons {
+    text-transform: uppercase;
+    font-size: 22px;
+    margin-top: 61px;
+}
+
+.share-twitter, .share-fb {
+    width: 74.5%;
+    border: 3px solid #373b43;
+    padding: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.forme span {
+    color: #790000;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
