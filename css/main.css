@@ -313,7 +313,7 @@ input {
     float: left;
     background: #E3631F;
     padding: 40px 25px 40px 40px;
-    height: 1026px;
+    height: 965px;
 }
 
 .credits h3 {
@@ -336,7 +336,7 @@ input {
     color: #fff;
     font-size: 14px;
     line-height: 23px;
-    margin-top: -5px;
+    margin-top: -6px;
     margin-bottom: 30px;
 }
 
@@ -355,7 +355,7 @@ input {
 }
 
 .copyright-contact {
-    margin-top: 80px;
+    margin-top: 84px;
     color: #fff;
     font-size: 14px;
 }
@@ -502,6 +502,7 @@ p.description {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 1px;
 }
 
 .first-name, .last-name {
@@ -516,10 +517,10 @@ p.description {
 }
 
 .forme input {
-    margin-top: 15px;
-    margin-bottom: 26px;
+    margin-top: 14px;
+    margin-bottom: 25px;
     line-height: 22px;
-    padding: 10px 15px;
+    padding: 10px 14.5px;
     width: 88%;
 }
 
@@ -527,7 +528,23 @@ p.description {
     width: 302.5px;
 }
 
+.phone input {
+    margin-bottom: 24px;
+}
 
+.company-name input, .profession input {
+    margin-top: 14.5px;
+}
+
+.register-form button {
+    margin-top: 7px;
+    border: 2px solid #DD4D0A;
+    color: #DD4D0A;
+    padding: 9px 30px;
+    font-family: 'stratum-regular', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
 
 
 /* ==========================================================================
