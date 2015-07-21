@@ -123,6 +123,14 @@ body {
     color: #89898;
 }
 
+input {
+    outline: none;
+    border: 2px solid #CACACA;
+    font-family: 'stratum-regular', sans-serif;
+    color: #CACACA;
+    font-weight: 100;
+}
+
 .wrapper {
     width: 85%;
     padding: 0;
@@ -252,7 +260,7 @@ body {
 .whatlearn-expl {
     width: 520px;
     padding: 20px 40px;
-    margin-top: 56px;
+    margin-top: 168px;
     margin-left: 67px;
     float: left;
     background: #fff;
@@ -305,6 +313,7 @@ body {
     float: left;
     background: #E3631F;
     padding: 40px 25px 40px 40px;
+    height: 1026px;
 }
 
 .credits h3 {
@@ -411,6 +420,16 @@ p.description {
     margin-top: 61px;
 }
 
+.share-buttons a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.share-twitter:hover, .share-fb:hover {
+    color: #fff;
+    background: #373b43;
+}
+
 .share-twitter, .share-fb {
     width: 74.5%;
     border: 3px solid #373b43;
@@ -419,8 +438,93 @@ p.description {
     margin-bottom: 30px;
 }
 
+.register-form {
+    width: 44.5%;
+    float: left;
+    margin-left: -1px;
+}
+
+.form-title {
+    border-top: 6px solid #373B43;
+    padding-top: 30px;
+}
+
 .forme span {
     color: #790000;
+}
+
+.form-title p {
+    font-family: 'stratum-regular', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.form-title h1 {
+    font-family: 'stratum-bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 42px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+.steps {
+    font-family: 'stratum-regular', sans-serif;
+    margin-top: -4px;
+    margin-left: -1px;
+}
+
+.step-num1, .step-num2 {
+    font-size: 24px;
+    font-family: arial, sans-serif;
+}
+
+.step-num2, .step-2 {
+    opacity: 0.2;
+}
+
+.step-1, .step-2 {
+    font-size: 18px;
+    font-weight: 100;
+    margin-right: 18px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.forme {
+    margin-top: 28px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.name {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.first-name, .last-name {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.last-name {
+    margin-right: 8px;
+}
+
+.forme input {
+    margin-top: 15px;
+    margin-bottom: 26px;
+    line-height: 22px;
+    padding: 10px 15px;
+    width: 88%;
+}
+
+.name input {
+    width: 302.5px;
 }
 
 

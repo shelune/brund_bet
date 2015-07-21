@@ -89,12 +89,12 @@
                             </div>
                     </div>
                     <div class="share-buttons">
-                            <div class="share-twitter">
+                            <a href="#"><div class="share-twitter">
                                 Share on Twitter
-                            </div>
-                            <div class="share-fb">
+                            </div></a>
+                            <a href="#"><div class="share-fb">
                                 Share on Facebook
-                            </div>
+                            </div></a>
                         </div>
                 </div>
                 <div class="register-form">
@@ -103,35 +103,39 @@
                         <h1>Brand Bat Workshop</h1>
                     </div>
                     <div class="steps">
-                        <span class="step-1">Your info</span>
-                        <span class="step-2">Questionaire</span>
+                        <span class="step-num1">1</span>&nbsp;<span class="step-1">Your Info</span>
+                        <span class="step-num2">2</span>&nbsp;<span class="step-2">Questionnaire</span>
                     </div>
                     <div class="forme">
                         <div class="name">
-                            First Name <span>*</span>
-                            <input type="text">
-                            Last Name <span>*</span>
-                            <input type="text">
+                            <div class="first-name">
+                                <label for="firstname">First Name </label><span>*</span><br>
+                                <input type="text" id="firstname" placeholder="First Name">
+                            </div>
+                            <div class="last-name">
+                                <label for="lastname">Last Name </label> <span>*</span><br>
+                                <input type="text" id="lastname" placeholder="Last Name">
+                            </div>
                         </div>
                         <div class="email">
-                            Email <span>*</span>
-                            <input type="text">
+                            <label for="email">Email </label> <span>*</span><br>
+                            <input type="text" id="email" placeholder="Email">
                         </div>
                         <div class="phone">
-                            Phone <span>*</span>
-                            <input type="text">
+                            <label for="phone">Phone </label> <span>*</span><br>
+                            <input type="text" id="phone" placeholder="Phone">
                         </div>
                         <div class="company-name">
-                            Company Name
-                            <input type="text">
+                            <label for="companyname">Company Name</label><br>
+                            <input type="text" id="companyname" placeholder="Company Name">
                         </div>
                         <div class="profession">
-                            Job Title
-                            <input type="text">
+                            <label for="job">Job Title</label><br>
+                            <input type="text" id="job" placeholder="Job Title">
                         </div>
                         <div class="website">
-                            Website
-                            <input type="text">
+                            <label for="website">Website</label><br>
+                            <input type="text" id="website" placeholder="Website">
                         </div>
                     </div>
                     <button>Next</button>
