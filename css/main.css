@@ -118,6 +118,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/** General classes **/
 body {
     font-family: 'ff-meta-web-pro', serif;
     color: #89898;
@@ -127,7 +128,7 @@ input {
     outline: none;
     border: 2px solid #CACACA;
     font-family: 'stratum-regular', sans-serif;
-    color: #CACACA;
+    color: #999999;
     font-weight: 100;
 }
 
@@ -146,6 +147,8 @@ input {
     width: 100%;
     clear: both;
 }
+
+/** Section 1 **/
 
 .intro-section {
     text-align: center;
@@ -174,8 +177,10 @@ input {
     font-family: 'ff-meta-web-pro-italic', serif;
     font-weight: 100;
     font-size: 30px;
-    margin-top: -45px;
+    margin-top: -46px;
 }
+
+/** Section 2 **/
 
 .the-workshop {
     background: url('../img/section2.jpg') no-repeat;
@@ -215,6 +220,8 @@ input {
     font-size: 52px;
 }
 
+/** Section 3 **/
+
 .whos-for {
     background: url('../img/section3.jpg') no-repeat;
     background-size: cover;
@@ -251,6 +258,8 @@ input {
     font-weight: 100;
     margin-top: -25px;
 }
+
+/** Section 4 **/
 
 .what-learn {
     background: url('../img/section4.jpg') no-repeat;
@@ -299,6 +308,8 @@ input {
     font-size: 18px;
     line-height: 31px;
 }
+
+/** Section 5 **/
 
 .registeration {
     height: 965px;
@@ -371,14 +382,13 @@ input {
 }
 
 .share {
-    border-top: 6px solid #373B43;
     width: 26.5%;
+    border-top: 6px solid #373B43;
     float: left;
     padding: 72px 25px 40px 40px;
     font-family: 'stratum-bold', sans-serif;
     margin-left: 2px;
 }
-
 
 .investment {
     background: url(../img/icon-investment.png) no-repeat;
@@ -440,7 +450,7 @@ p.description {
 
 .register-form {
     width: 44.5%;
-    float: left;
+    float: right;
     margin-left: -1px;
 }
 
@@ -629,6 +639,18 @@ p.description {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (max-width: 1368px) {
+    /* Style adjustments for viewports that meet the condition */
+    .share {
+        width: 24.5%;
+        padding-right: 29px;
+    }
+
+    .name input {
+        width: 80%;
+    }
 }
 
 @media print,
